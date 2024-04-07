@@ -24,7 +24,7 @@ const add_student = () => {
         roll_number: roll_number,
         room_number: room_number,
         hostel_alloted: hostel_alloted,
-        username_assigned: username_assigned,
+        username_assigned: username_assigned, //change to email
         password: password
     })
     .then((docRef) => {
@@ -36,5 +36,15 @@ const add_student = () => {
         console.error("Error adding document:", error);
 
     });
+    auth.createUserWithEmailAndPassword(username_assigned, password) 
+    .then((res) => {
+        console.log(res.user)
+    })
+    .catch((err) => {
+        alert(err.code)
+        // alert(err.message)
+
+    })
+
 
 }

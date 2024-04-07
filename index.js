@@ -19,14 +19,16 @@ const login = () => {
     auth.signInWithEmailAndPassword(email, pass)
         .then((res) => {
             const datausr = res.user
-            console.log(res.user.email)
+            const userEmail = res.user.email
+            
         
             if(res.user.email != 'admin@nitp.com'){
                 console.log("admin not here") //debug
 
+
             }else{
                 console.log("admin is here")
-                
+                window.location.href = "adminpage1.html";
             }  
             
         })
@@ -41,3 +43,7 @@ const login = () => {
 
 //admin@nitp.com
     //admin123
+
+
+
+    //adr
