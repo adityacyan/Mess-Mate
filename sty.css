@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    display: flex;
+}
+#pink{
+    width:25%;
+    height:100vh;
+    background-color: #D89886;
+    opacity: 0.84;
+}
+#white{
+    width:75%;
+    height:100vh;
+    position: absolute;
+}
+#profile{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.headings{
+    color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 32px;
+    background-color: #D89886;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+#btn1{
+    margin-top: 100px;
+}
+#btn4{
+    font-size: 38px;
+    text-shadow: black 1px 1px;
+}
+
+#welcome{
+    color: black;
+    margin-left: 480px;
+    font-size: 80px;
+}
+
+#user{
+    color:#D89886;
+    font-size: 80px;
+}
+
+#maincontainer{
+    background-color: #D9D9D9;
+    opacity: 0.44;
+    position: absolute;
+    z-index: 10px;
+    margin-top: 200px;
+    margin-left: 440px;
+    height: 540px;
+    width: 1050px;
+    border-radius: 3%;
+
+}
+
+#coupons{
+    margin-top: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 40px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th{
+    padding: 10px 20px 20px 30px;
+    border: 2px solid black;
+}
+td{
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    border: 2px solid black;
+}
+td.amt{
+    padding-left: 100px;
+}
+td.room{
+    padding-left: 80px;
+}
+td.hostel, td.date{
+    padding-right: 30px;
+}
+td.serial{
+    padding-left: 50px;
+}
+#buycoupon{
+    margin-left: 320px;
+    margin-top: 20px;
+    padding: 10px 70px;
+    font-size: 30px;
+    background-color: #D89886;
+    color: white;
+    border-radius: 12px;
+    border: none;
+}
