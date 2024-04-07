@@ -36,7 +36,7 @@
 #btn1{
     margin-top: 100px;
 }
-#btn4{
+#btn3{
     font-size: 38px;
     text-shadow: black 1px 1px;
 }
@@ -65,43 +65,31 @@
 
 }
 
-#coupons{
-    margin-top: 45px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 40px;
-    border: 2px solid black;
-    border-collapse: collapse;
+#sem{
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+#messleave{
+    margin-top: 25px;
+    margin-left: 35px;
+    font-size: 36px;
 }
 th{
-    padding: 10px 20px 20px 30px;
-    border: 2px solid black;
+    padding: 10px 20px 35px 20px;
 }
-td{
-    padding-top: 10px;
-    padding-left: 40px;
-    padding-bottom: 10px;
-    border: 2px solid black;
+td.month{
+    padding-left: 250px;
+    padding-right: 100px;
+    padding-bottom: 15px;
 }
 td.amt{
-    padding-left: 100px;
-}
-td.room{
-    padding-left: 80px;
-}
-td.hostel, td.date{
-    padding-right: 30px;
+    padding-left: 150px;
+    padding-bottom: 15px;
+    padding-right: 100px;
 }
 td.serial{
-    padding-left: 50px;
+    padding-left: 65px;
+    padding-bottom: 15px;
 }
-#buycoupon{
-    margin-left: 320px;
-    margin-top: 20px;
-    padding: 10px 70px;
-    font-size: 30px;
-    background-color: #D89886;
-    color: white;
-    border-radius: 12px;
-    border: none;
-}
+

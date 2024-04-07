@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mess Mate</title>
+    <link type="text/css" rel="stylesheet" href="userpage3.css">
+
+
+</head>
+<body>
+    <div id="container">
+        <div id="pink">
+            <img src="profile.png" id="profile"/> 
+            <button class="headings" id="btn1"> Attendance </button>
+            <button class="headings" id="btn2"> Mess Leave </button>
+            <button class="headings" id="btn3"><b> Total mess fees </b></button>
+            <button class="headings" id="btn4"> Coupons </button>
+            <button class="headings" id="btn5"> Feedback </button>
+            
+        </div>
+
+        <div id="white">
+                <br><br><br>
+                <span id="welcome"><b> WELCOME </b></span> 
+                <span id="user"><b> USER </b></span>
+        </div>
+        <div id="maincontainer">
+            <br><br>
+            <label for="sem" style="margin-left: 50px; font-size: 30px;"><b>Semester :</b></label>
+            <select name="sem" id="sem">
+                <option value="spring24"> Spring semester (Jan - July 2024) </option>
+                <option value="autumn24"> Autumn semester (Aug - Dec 2024)</option>
+                <option value="spring23"> Spring semester (Jan - July 2023) </option>
+                <option value="autumn23"> Autumn semester (Aug - Dec 2023)</option>
+            </select
+            <br>
+            <table id="messleave">
+                <tr>
+                   <th style="padding-left: 50px;"><b> S.No. </b></th>
+                   <th style="padding-left: 150px;"><b> Month </b></th>
+                   <th style="padding-left: 50px;"><b> Total </b></th>
+                </tr>
+                <tr>
+                   <td class="serial"> 01 </td>
+                   <td class="month"> January </td>
+                   <td class="amt"> Rs.4650 </td>
+                </tr>
+                <tr>
+                   <td class="serial"> 02 </td>
+                   <td class="month"> February </td>
+                   <td class="amt"> Rs.5000 </td>
+                </tr>
+                <tr>
+                   <td class="serial"> 03 </td>
+                   <td class="month"> March </td>
+                   <td class="amt"> Rs.4400 </td>
+                </tr>
+                <tr rowspan="4">
+                    <td class="serial" style="text-shadow: black 1px 1px;"> 04 </td>
+                    <td class="month" style="text-shadow: black 1px 1px;"> April </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td style="font-size: 25px; padding-left: 250px;"> No. of days eaten : 5 </td>
+                    <td class="amt" > Rs.830 </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td style="font-size: 25px; padding-left: 250px;"> No. of days absent : 0 </td>
+                    <td style="font-size: 25px; padding-left: 150px;"> (Current Total) </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td style="font-size: 25px; padding-left: 250px;"> Remarks : None </td>
+                
+            </table>
+              
+        </div>
+        
+    </div>
+</body>
+</html>
