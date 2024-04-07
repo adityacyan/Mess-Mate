@@ -25,10 +25,13 @@ const add_student = () => {
         room_number: room_number,
         hostel_alloted: hostel_alloted,
         username_assigned: username_assigned,
-        password: password
+        password: password,
+        coupon: 500
     })
     .then((docRef) => {
+        let id_id = docRef.id;
         console.log("Document written with ID:", docRef.id);
+    
     })
 
 
@@ -37,4 +40,9 @@ const add_student = () => {
 
     });
 
+
+
 }
+
+
+
