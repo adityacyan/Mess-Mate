@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    display: flex;
+}
+#pink{
+    width:25%;
+    height:100vh;
+    background-color: #D89886;
+    opacity: 0.84;
+    position: relative;
+}
+#outer{
+    position: relative;
+}
+#white{
+    width:75%;
+    height:100vh;
+    position: absolute;
+}
+
+#profile{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.headings{
+    color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 32px;
+    background-color: #D89886;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+#btn1{
+    margin-top: 100px;
+    font-size: 34px;
+    
+}
+#btn5{
+    font-size: 38px;
+    text-shadow: black 1px 1px ;
+}
+
+#welcome{
+    color: black;
+    margin-left: 480px;
+    font-size: 80px;
+}
+
+#user{
+    color:#D89886;
+    font-size: 80px;
+}
+
+#maincontainer{
+    background-color: #D9D9D9;
+    opacity: 0.44;
+    position: absolute;
+    z-index: 10px;
+    margin-top: 200px;
+    margin-left: 480px;
+    height: 590px;
+    width: 1150px;
+    border-radius: 3%;
+
+}
+#write{
+    background-color: white;
+    height: 180px;
+    width: 1000px;
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.postanonymous{
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 0px;
+ font-size: 25px;
+}
+#checkbox{
+   transform: scale(2);
+   margin-right: 15px;
+   stroke: none;
+}
+#upload{
+    background-color: white;
+    height: 110px;
+    width: 1000px;
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: lighter;
+
+}
+
+#rate{
+    display: flex;
+    background-color: white;
+    height: 70px;
+    width: 1000px;
+
+    border: none;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 10px;
+    font-size: 30px;
+    
+    justify-content: center;
+}
+#ratetext{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 50px;
+    font-family: sans-serif;
+    opacity: 0.7;
+ 
+}
+#img{
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+    margin-top: 3px;
+    margin-left: 20px;
+   
+    
+}
+#submit{
+    height: 40px;
+    width: 200px;
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 480px;
+    font-size: 25px;
+    font-weight: bold;   
+}

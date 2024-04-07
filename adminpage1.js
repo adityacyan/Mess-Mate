@@ -26,7 +26,11 @@ const add_student = () => {
         hostel_alloted: hostel_alloted,
         username_assigned: username_assigned,
         password: password,
-        coupon: 500
+        coupon: 500,
+        breakfast: false,
+        lunch: false,
+        snacks: false,
+        dinner: false
     })
     .then((docRef) => {
         let id_id = docRef.id;
@@ -39,6 +43,16 @@ const add_student = () => {
         console.error("Error adding document:", error);
 
     });
+    auth.createUserWithEmailAndPassword(username_assigned, password) 
+    .then((res) => {
+        console.log(res.user)
+    })
+    .catch((err) => {
+        alert(err.code)
+        // alert(err.message)
+
+    })
+
 
 
 

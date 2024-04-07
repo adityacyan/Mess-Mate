@@ -64,72 +64,20 @@
     position: absolute;
     z-index: 10px;
     margin-top: 180px;
-    margin-left: 470px;
+    margin-left: 460px;
     height: 570px;
-    width: 1000px;
+    width: 1200px;
     border-radius: 3%;
 
 }
-.content{
+.feedback{
     display: flex;
-    flex-direction: row;
-    margin-top: 40px;
-    margin-bottom: 10px;
-    font-size: 30px;
-    margin-right: 100px;
-    margin-left: 90px;
-    /* font-weight: bold; */
-    
 }
-#input1{
-    margin-left: 200px;
-   height: 30px;
-   width: 310px;
-   font-size: 20px;
-   
+#symbol{
+    background-size: cover;
+}
+#name{
+    display: flex;
+    flex-direction: column;
+}
 
-}
-#input2{
-    margin-left: 298px;
-    height: 30px;
-    width: 310px; 
-    font-size: 20px;  
-}
-#input3{
-    margin-left: 278px;
-    height: 30px;
-    width: 310px; 
-    font-size: 20px;  
-}
-#input4{
-    margin-left: 284px;
-    height: 30px;
-    width: 310px;  
-    font-size: 20px; 
-}
-#input5{
-    margin-left: 325px;
-    height: 30px;
-    width: 310px; 
-    font-size: 20px;  
-}
-#input6{
-    margin-left: 343px;
-    height: 30px;
-    width: 310px;   
-    font-size: 20px;
-    text-align: center;
-   
-}
-#adminsubmit1{
-    height: 40px;
-    width: 250px;
-    background-color: darkgreen;
-    color: white;
-    text-align: center;
-    margin-top: 30px;
-    margin-left: 400px;
-    font-size: 25px;
-    font-weight: bold;
-   
-}

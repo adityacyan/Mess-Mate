@@ -9,6 +9,12 @@ const firebaseApp = firebase.initializeApp({
 });
 const db = firebaseApp.firestore();
 const auth = firebaseApp.auth();
+var globalVariable;
+
+function myFunction(localVariable) {
+    globalVariable = localVariable;
+}
+
 
 
 
@@ -19,14 +25,16 @@ const login = () => {
     auth.signInWithEmailAndPassword(email, pass)
         .then((res) => {
             const datausr = res.user
-            console.log(res.user.email)
+            const userEmail = res.user.email
+            
         
             if(res.user.email != 'admin@nitp.com'){
                 console.log("admin not here") //debug
+                window.location.href = "userpage1.html";
 
             }else{
                 console.log("admin is here")
-                
+                window.location.href = "adminpage1.html";
             }  
             
         })
@@ -36,8 +44,38 @@ const login = () => {
 
         })
     
+        console.log(email)
+        var collectionRef = db.collection("user_data");
+
+
+var query = collectionRef.where("username_assigned", "==", email);
+
+
+
+query.get().then(function(querySnapshot) {
+    querySnapshot.forEach(function(doc) {
+    
+        console.log(doc.id);
+        localVariable=doc.id;
+        console.log(id);
+        myFunction(localVariable);
+
+    
+    });
+}).catch(function(error) {
+    console.log("Error getting documents: ", error);
+});
+    
+
+    
     
 }
 
+
 //admin@nitp.com
     //admin123
+
+
+// Define a global variable
+
+
