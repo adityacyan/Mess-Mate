@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    display: flex;
+}
+#pink{
+    width:25%;
+    height:100vh;
+    background-color: #D89886;
+    opacity: 0.84;
+    position: relative;
+}
+#outer{
+    position: relative;
+}
+#white{
+    width:75%;
+    height:100vh;
+    position: absolute;
+}
+
+#profile{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.headings{
+    color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 32px;
+    background-color: #D89886;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+#btn1{
+    margin-top: 100px;
+    font-size: 34px;
+    
+}
+#btn2{
+    font-size: 38px;
+    text-shadow: black 1px 1px;
+}
+
+#welcome{
+    color: black;
+    margin-left: 480px;
+    font-size: 80px;
+}
+
+#user{
+    color:#D89886;
+    font-size: 80px;
+}
+
+#maincontainer{
+    background-color: #D9D9D9;
+    opacity: 0.44;
+    position: absolute;
+    z-index: 10px;
+    margin-top: 200px;
+    margin-left: 440px;
+    height: 600px;
+    width: 1150px;
+    border-radius: 3%;
+
+}
+#head3{
+    text-align: center;
+    font-size: 37px;
+    margin-top: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    margin-right: 100px;
+    margin-left: 90px;
+    /* font-weight: bold; */
+    
+    
+}
+
+#input1{
+    margin-left: 200px;
+   height: 30px;
+   width: 310px;
+   font-size: 20px;
+   
+
+}
+#input2{
+    margin-left: 275px;
+    height: 30px;
+    width: 310px; 
+    font-size: 20px;  
+}
+#input3{
+    margin-left: 290px;
+    height: 30px;
+    width: 310px; 
+    font-size: 20px;  
+}
+#input4{
+    margin-left: 260px;
+    height: 30px;
+    width: 310px;  
+    font-size: 20px; 
+}
+#input5{
+    margin-left: 240px;
+    height: 30px;
+    width: 310px; 
+    font-size: 20px;  
+}
+#input6{
+    margin-left: 140px;
+    height: 30px;
+    width: 310px;   
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+    
+}
+#submit3{
+    height: 40px;
+    width: 200px;
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 420px;
+    font-size: 25px;
+    font-weight: bold;   
+}
