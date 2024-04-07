@@ -9,23 +9,28 @@ const firebaseApp = firebase.initializeApp({
 });
 const db = firebaseApp.firestore();
 const auth = firebaseApp.auth();
-var globalVariable;
 
-function myFunction(localVariable) {
-    globalVariable = localVariable;
+var globalVariable = "Initial Value";
+
+
+function changeGlobalValue(newValue) {
+    globalVariable = newValue;
+    console.log("Global variable updated to:", globalVariable);
 }
-
 
 
 
 const login = () => {
     const email = document.getElementById('email').value
     const pass = document.getElementById('pass').value
+    
+    
     console.log(email,pass)
     auth.signInWithEmailAndPassword(email, pass)
         .then((res) => {
             const datausr = res.user
             const userEmail = res.user.email
+            
             
         
             if(res.user.email != 'admin@nitp.com'){
@@ -56,26 +61,68 @@ query.get().then(function(querySnapshot) {
     querySnapshot.forEach(function(doc) {
     
         console.log(doc.id);
-        localVariable=doc.id;
-        console.log(id);
-        myFunction(localVariable);
+        changeGlobalValue(doc.id)
+
+    
 
     
     });
 }).catch(function(error) {
     console.log("Error getting documents: ", error);
 });
-    
+
 
     
-    
 }
+
+
+
 
 
 //admin@nitp.com
     //admin123
 
 
-// Define a global variable
+    const breakfast = () => {
+        db.collection('user_data').doc('globalVariable')
+        .update({
+            breakfast: true
+
+            
+        })
+        .then(() => {
+            alert('Data Updated')
+        })
+    }
+
+    const lunch = () => {
+        db.collection('user_data').doc(globalVariable)
+        .update({
+            lunch: true
+        })
+        .then(() => {
+            alert('Data Updated')
+        })
+    }
+
+    const snacks = () => {
+        db.collection('user_data').doc(globalVariable)
+        .update({
+            snacks: true
+        })
+        .then(() => {
+            alert('Data Updated')
+        })
+    }
+
+    const dinner = () => {
+        db.collection('user_data').doc(globalVariable)
+        .update({
+            dinner: true
+        })
+        .then(() => {
+            alert('Data Updated')
+        })
+    }
 
 
