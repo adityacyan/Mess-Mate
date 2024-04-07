@@ -84,11 +84,9 @@ query.get().then(function(querySnapshot) {
 
 
     const breakfast = () => {
-        db.collection('user_data').doc('globalVariable')
+        db.collection('user_data').doc(globalVariable)
         .update({
             breakfast: true
-
-            
         })
         .then(() => {
             alert('Data Updated')
