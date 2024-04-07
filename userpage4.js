@@ -4,3 +4,7 @@ function buycupons() {
     console.log(amount)
     
 }
+
+const redirector = () => {
+    window.location.href = "userpage5.html";
+}
