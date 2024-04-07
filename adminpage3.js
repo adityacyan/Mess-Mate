@@ -1,3 +1,3 @@
 const redirector = () => {
-    window.location.href = "adminpage2.html";
+    window.location.href = "index.html";
 }
