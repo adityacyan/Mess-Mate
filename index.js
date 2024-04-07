@@ -24,7 +24,7 @@ const login = () => {
         
             if(res.user.email != 'admin@nitp.com'){
                 console.log("admin not here") //debug
-
+                window.location.href = "userpage1.html";
 
             }else{
                 console.log("admin is here")
