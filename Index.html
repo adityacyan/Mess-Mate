@@ -22,20 +22,26 @@
                 <span> <button class="user"> ADMIN </button></span>
                 <div id="username">
                     <div id="userlogo"> </div>
-                    <div><input type="text" class="input" placeholder="USERNAME"></div>
+                    <div><input type="email" class="input" placeholder="Email" id="email"></div>
                 </div>
                 <div id="password">
                     <div id="lock"> </div>
-                    <div><input type="text" class="input" placeholder="PASSWORD"></div>
+                    <div><input class="input" name="password" placeholder="password" id="pass" type="password" /></div>
                 </div>
                 <br>
                 <h3 id="forgotpassword">FORGOT PASSWORD?</h3>
-                <button id="loginbtn"> LOGIN </button>
+                <button id="loginbtn" onclick="login()"> LOGIN </button>
             </div>
             <div id="loginphoto"></div>
         </div>
     
     </div>
 </body>
-
+<script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-auth-compat.js"></script>
+<script src="index.js"></script>
 </html>
+
+<!-- student@nitp.com
+student123 -->
