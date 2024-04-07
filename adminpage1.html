@@ -32,7 +32,7 @@
                      </label>
                     </div>
                     <div>
-                     <input id="input1" type="text">
+                     <input class="data_reset" id="input1" type="text">
                     </div>
                  </div>
                  <div class="content">
@@ -41,7 +41,7 @@
                       </label>
                      </div>
                      <div>
-                      <input id="input2" type="text">
+                      <input  class="data_reset" id="input2" type="text">
                      </div>
                   </div>
                   <div class="content">
@@ -50,7 +50,7 @@
                       </label>
                      </div>
                      <div>
-                      <input  id="input3" type="text">
+                      <input class="data_reset"  id="input3" type="text">
                      </div>
                   </div>
                   <div class="content">
@@ -59,16 +59,16 @@
                       </label>
                      </div>
                      <div>
-                      <input  id="input4" type="text">
+                      <input class="data_reset"  id="input4" type="text">
                      </div>
                   </div>
                   <div class="content">
                      <div>
-                      <label>Username Assigned : 
+                      <label>User Email : 
                       </label>
                      </div>
                      <div>
-                      <input  id="input5" type="text">
+                      <input class="data_reset" id="input5" type="email">
                      </div>
                   </div><div class="content">
                      <div>
@@ -76,14 +76,20 @@
                       </label>
                      </div>
                      <div>
-                      <input  id="input6" type="password" >
+                      <input class="data_reset" id="input6" type="password" >
                      </div>
                   </div>
-                  <button id="adminsubmit1">
-                     Add Student
-                  </button>
+                  <button id="adminsubmit1" class="adminsubmit"
+                  onclick="add_student()"
+                  >Add Student</button>
             </div>
         
     </div>
 </body>
+
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-auth-compat.js"></script>
+<script src="adminpage1.js"></script>
+
 </html>
