@@ -48,13 +48,14 @@
 
 #welcome{
     color: black;
-    margin-left: 470px;
-    font-size: 80px;
+    margin-left: 400px;
+    font-size: 50px;
+    padding-right: 20px;
 }
 
 #admin{
     color:#D89886;
-    font-size: 80px;
+    font-size: 50px;
     margin-left: 0px;
 }
 
