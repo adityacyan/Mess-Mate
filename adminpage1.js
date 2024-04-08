@@ -46,12 +46,19 @@ const add_student = () => {
     auth.createUserWithEmailAndPassword(username_assigned, password) 
     .then((res) => {
         console.log(res.user)
+        if(res.user.email != null){
+            alert("user created succesfully")
+
+        }else{
+            alert("try again")
+        }  
     })
     .catch((err) => {
         alert(err.code)
         // alert(err.message)
 
     })
+   
 
 
 
