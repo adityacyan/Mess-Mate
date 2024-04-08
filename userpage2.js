@@ -39,3 +39,7 @@ const student_leave = () => {
         console.error("Error adding document:", error);
 
     })}
+
+    const redirector = () => {
+        window.location.href = "userpage3.html";
+    }
