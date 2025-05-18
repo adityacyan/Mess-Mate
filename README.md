@@ -1,6 +1,6 @@
 # team_aasmaan
 # MESS MATE
-
+[Firebase DB expired the app doesnt work as of 18-may-25]
     TEAM AASMAAN (NITP)
         * ADITYA RAJ (2347012)
         * SANIYA (2306139)
